@@ -4,7 +4,7 @@ import Child from './Child'
 const Parent = () => {
     const [text, setText] = useState('')
     return (
-        <div style={{backgroundColor:"green",
+        <div className='parent' style={{backgroundColor:"green",
         }} >
             <h1>Parent Component</h1>
             <p>{text}</p>
